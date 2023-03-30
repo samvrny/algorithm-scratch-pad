@@ -50,3 +50,24 @@ function example(input) {
     }
     return a; //O(1)
 }
+
+//ANOTHER EXAMPLE
+
+function anotherExample(input) {
+    let a =5;
+    let b = 10;
+    let c = 50;
+
+    for(let i=0; i < input.length; i++) {
+        let d = 5;
+        let e = 5;
+        let f = 5;
+    }
+
+    for(let j=0; j < input; j++) {
+        let p = j * 2;
+        let q = j* 2;
+    }
+
+    let whoAmI = 'A shoftware developer'
+}
