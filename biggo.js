@@ -51,23 +51,23 @@ function example(input) {
     return a; //O(1)
 }
 
-//ANOTHER EXAMPLE
+//ANOTHER EXAMPLE. The solution is O(4 + 7n). This can be condensed down to O(n), once again. 
 
 function anotherExample(input) {
-    let a =5;
-    let b = 10;
-    let c = 50;
+    let a = 5; //O(1)
+    let b = 10; //O(1)
+    let c = 50; //O(1)
 
-    for(let i=0; i < input.length; i++) {
-        let d = 5;
-        let e = 5;
-        let f = 5;
+    for(let i=0; i < input.length; i++) { //O(n)
+        let d = 5; //O(n)
+        let e = 5; //O(n)
+        let f = 5; //O(n)
     }
 
-    for(let j=0; j < input; j++) {
-        let p = j * 2;
-        let q = j* 2;
+    for(let j=0; j < input; j++) { //O(n)
+        let p = j * 2; //O(n)
+        let q = j* 2; //O(n)
     }
 
-    let whoAmI = 'A shoftware developer'
+    let whoAmI = 'A shoftware developer' //O(1)
 }
