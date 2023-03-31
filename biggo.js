@@ -17,6 +17,7 @@ function O_of_n(array) { //call is on line 28
     for(i=0; i < array.length; i++) {
         if(array[i] === 'letters') {
             console.log('found letters!');
+            break;
         };
     };
 
@@ -69,5 +70,18 @@ function anotherExample(input) {
         let q = j* 2; //O(n)
     }
 
-    let whoAmI = 'A shoftware developer' //O(1)
+    let whoAmI = 'A software developer' //O(1)
+}
+
+//an example of rule 3 in the big O, 'Different terms for different inputs' The solution for this function is O(a + b) because it has two inputs, and therefore has two different instances of O(n)
+
+function ruleThree(input, input2) {
+
+    input.forEach(function(input) { //first instance of O(n)with the first argument (input)
+        console.log(input)
+    })
+
+    input2.forEach(function(input) { //second instance with the second argument
+        console.log(input)
+    })
 }
